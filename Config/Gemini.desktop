@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Gemini
-Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://gemini.google.com/app?is_sa=1&is_sa=1&android-min-version=301356232&ios-min-version=322.0&campaign_id=bkws&utm_source=sem&utm_medium=paid-media&utm_campaign=bkws&pt=9008&mt=8&ct=p-growth-sem-bkws&gclsrc=aw.ds&gad_source=1&gad_campaignid=20437330500&gbraid=0AAAAApk5Bhle1TA1npiJUjrzswouJg7Be&gclid=Cj0KCQiA1JLLBhCDARIsAAVfy7jjN4EeLqAZqaWRTCVFYK3f_qtZria1ymN6ePS5mwR1f9hTY_QezbgaAtOQEALw_wcB
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://gemini.google.com
 Icon=/data/data/com.termux/files/home/storage/linux/Iconos/gemini.png
 Terminal=false
 StartupNotify=false
