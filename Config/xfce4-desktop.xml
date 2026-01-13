@@ -6,7 +6,7 @@
     <property name="screen0" type="empty">
       <property name="monitorbuiltin" type="empty">
         <property name="workspace0" type="empty">
-          <property name="last-image" type="string" value="/data/data/com.termux/files/home/storage/linux/Wallpapers/tiger_wallpaper.png"/>
+          <property name="last-image" type="string" value="/data/data/com.termux/files/home/xfce4/Wallpaper/tiger_wallpaper.png"/>
           <property name="image-style" type="int" value="3"/>
         </property>
       </property>
