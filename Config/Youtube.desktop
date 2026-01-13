@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=YouTube
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://www.youtube.com/feed/subscriptions
+Icon=/data/data/com.termux/files/home/storage/linux/Iconos/youtube.png
+Terminal=false
+StartupNotify=false
+Comment=
+Path=

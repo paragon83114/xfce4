@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Discord
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://discord.com/app
+Icon=/data/data/com.termux/files/home/storage/linux/Iconos/discord.png
+Terminal=false
+StartupNotify=false
+Comment=
+Path=

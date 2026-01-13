@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Teams
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://teams.microsoft.com/v2/
+Icon=/data/data/com.termux/files/home/storage/linux/Iconos/teams.png
+Terminal=false
+StartupNotify=false
+Comment=
+Path=

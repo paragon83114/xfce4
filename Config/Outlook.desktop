@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Outlook
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://outlook.office.com/mail/
+Icon=/data/data/com.termux/files/home/storage/linux/Iconos/outlook.png
+Terminal=false
+StartupNotify=false
+Comment=
+Path=

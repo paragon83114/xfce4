@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Terminal
+Comment=
+Exec=xfce4-terminal --default-working-directory=$HOME
+Icon=org.xfce.terminalemulator
+Path=
+Terminal=false
+StartupNotify=false
