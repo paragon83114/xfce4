@@ -29,7 +29,7 @@ cp Config/keyboard-layout.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/key
 cp Config/icons.screen0.yaml $HOME/.config/xfce4/desktop/icons.screen0.yaml
 cp Config/*.desktop $HOME/Desktop
 
-chmod +x Desktop/*.desktop
+chmod a+x $HOME/Desktop/*.desktop
 chmod +x *.sh
 
 ./termux_xfce4.sh
