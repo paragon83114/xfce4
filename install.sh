@@ -27,7 +27,7 @@ cp Config/xfce4-desktop.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4
 cp Config/xfce4-panel.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 cp Config/keyboard-layout.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml
 cp Config/icons.screen0.yaml $HOME/.config/xfce4/desktop/icons.screen0.yaml
-cp Config/*.desktop Desktop
+cp Config/*.desktop $HOME/Desktop
 
 chmod +x Desktop/*.desktop
 chmod +x *.sh
