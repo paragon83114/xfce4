@@ -3,7 +3,7 @@ Version=1.0
 Type=Application
 Name=Gemini
 Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://gemini.google.com
-Icon=/data/data/com.termux/files/home/storage/linux/Iconos/gemini.png
+Icon=/data/data/com.termux/files/home/xfce4/Iconos/gemini.png
 Terminal=false
 StartupNotify=false
 Comment=
