@@ -28,8 +28,12 @@ cp Config/xfce4-panel.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-p
 cp Config/keyboard-layout.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml
 cp Config/icons.screen0.yaml $HOME/.config/xfce4/desktop/icons.screen0.yaml
 cp Config/*.desktop $HOME/Desktop
-
 chmod a+x $HOME/Desktop/*.desktop
-chmod +x *.sh
+for f in $HOME/Desktop/*.desktop; do
+    gio set "$f" metadata::xfce-exe-checksum "$(sha256sum "$f" | awk '{print $1}')"
+done
 
+termux-x11-preference "fullscreen":"true"
+
+chmod +x *.sh
 ./termux_xfce4.sh
