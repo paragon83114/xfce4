@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=1680x1050
+Comment=
+Exec=termux-x11-preference "displayResolutionExact":"1680x1050"
+Icon=/data/data/com.termux/files/home/xfce4/Iconos/resolucion.png
+Path=
+Terminal=false
+StartupNotify=false
