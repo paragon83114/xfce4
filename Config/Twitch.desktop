@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Twitch
-Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://www.twitch.tv/directory/following
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --start-maximized --app=https://www.twitch.tv/directory/following
 Icon=/data/data/com.termux/files/home/xfce4/Iconos/twitch.png
 Terminal=false
 StartupNotify=false

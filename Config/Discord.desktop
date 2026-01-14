@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Discord
-Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://discord.com/app
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --start-maximized --app=https://discord.com/app
 Icon=/data/data/com.termux/files/home/xfce4/Iconos/discord.png
 Terminal=false
 StartupNotify=false

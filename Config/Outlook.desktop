@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Outlook
-Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://outlook.office.com/mail/
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --start-maximized --app=https://outlook.office.com/mail/
 Icon=/data/data/com.termux/files/home/xfce4/Iconos/outlook.png
 Terminal=false
 StartupNotify=false

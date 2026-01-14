@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Keep
-Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --app=https://keep.google.com/
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --start-maximized --app=https://keep.google.com/
 Icon=/data/data/com.termux/files/home/xfce4/Iconos/google-keep.png
 Terminal=false
 StartupNotify=false
