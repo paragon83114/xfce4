@@ -29,11 +29,16 @@ cp Config/keyboard-layout.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/key
 cp Config/icons.screen0.yaml $HOME/.config/xfce4/desktop/icons.screen0.yaml
 cp Config/*.desktop $HOME/Desktop
 chmod a+x $HOME/Desktop/*.desktop
+
+#Es posible que este for solo se pueda ejecutar con el xfce4 encendido
 for f in $HOME/Desktop/*.desktop; do
     gio set "$f" metadata::xfce-exe-checksum "$(sha256sum "$f" | awk '{print $1}')"
 done
 
 termux-x11-preference "fullscreen":"true"
+
+echo "$HOME/xfce4/termux_xfce4" >> $HOME/.bashrc
+chmod +x $HOME/.bashrc
 
 chmod +x *.sh
 ./termux_xfce4.sh
