@@ -37,7 +37,7 @@ done
 
 termux-x11-preference "fullscreen":"true"
 
-echo "$HOME/xfce4/termux_xfce4" >> $HOME/.bashrc
+echo "alias start=$HOME/xfce4/termux_xfce4" >> $HOME/.bashrc
 chmod +x $HOME/.bashrc
 
 chmod +x *.sh
