@@ -17,6 +17,7 @@ pkg install code-oss -y
 pkg install parole -y
 pkg install nmap -y
 pkg install termux-api -y
+pkg install openjdk-17 -y
 pkg list-all > paquetes.txt
 
 mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
