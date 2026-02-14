@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Maltego
+Comment=
+Exec=/data/data/com.termux/files/home/apps/maltego_4.11.1/bin/maltego_start.sh
+Icon=/data/data/com.termux/files/home/xfce4/Iconos/maltego.png
+Path=
+Terminal=false
+StartupNotify=false

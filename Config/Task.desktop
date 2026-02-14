@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Task
+Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --start-maximized --app=https://to-do.office.com/tasks/today
+Icon=/data/data/com.termux/files/home/xfce4/Iconos/task.png
+Terminal=false
+StartupNotify=false
+Comment=
+Path=
