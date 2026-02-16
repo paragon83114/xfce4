@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Firefox
+Comment=
+Exec=firefox %u
+Icon=/data/data/com.termux/files/home/xfce4/Iconos/firefox.png
+Path=
+Terminal=false
+StartupNotify=false

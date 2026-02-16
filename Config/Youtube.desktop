@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=YouTube
-Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --start-maximized --app=https://www.youtube.com/feed/subscriptions
+Exec=firefox https://www.youtube.com/feed/subscriptions
 Icon=/data/data/com.termux/files/home/xfce4/Iconos/youtube.png
 Terminal=false
 StartupNotify=false

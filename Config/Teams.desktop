@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Name=Teams
-Exec=/data/data/com.termux/files/usr/lib/chromium/chromium-launcher.sh --start-maximized --app=https://teams.microsoft.com/v2/
+Exec=firefox https://teams.microsoft.com/v2/
 Icon=/data/data/com.termux/files/home/xfce4/Iconos/teams.png
 Terminal=false
 StartupNotify=false
