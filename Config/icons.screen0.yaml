@@ -12,6 +12,9 @@ configs:
       width: 1680
       height: 1050
   icons:
+    "/data/data/com.termux/files/home/Desktop/1920x1200.desktop":
+      row: 3
+      col: 5
     "/data/data/com.termux/files/home/Desktop/1280x960.desktop":
       row: 0
       col: 5
@@ -21,6 +24,12 @@ configs:
     "/data/data/com.termux/files/home/Desktop/NotebookLM.desktop":
       row: 1
       col: 3
+    "/data/data/com.termux/files/home/Desktop/Gmail.desktop":
+      row: 2
+      col: 3
+    "/data/data/com.termux/files/home/Desktop/gmail.png":
+      row: 0
+      col: 6
     "/data/data/com.termux/files/home/Desktop/1280x960 (copy 1).desktop":
       row: 1
       col: 5
@@ -43,7 +52,7 @@ configs:
       row: 1
       col: 1
     "/data/data/com.termux/files/home/Desktop/Cromium.desktop":
-      row: 0
+      row: 1
       col: 0
     "/data/data/com.termux/files/home/Desktop/Youtube.desktop":
       row: 1
@@ -63,6 +72,9 @@ configs:
     "/data/data/com.termux/files/home/Desktop/Gemini.desktop":
       row: 0
       col: 3
+    "/data/data/com.termux/files/home/Desktop/Discord (copy 1).desktop":
+      row: 6
+      col: 1
     "/data/data/com.termux/files/home/Desktop/NotebookLM":
       row: 1
       col: 2
@@ -75,9 +87,9 @@ configs:
     "/data/data/com.termux/files/home/Desktop/Whatsapp.desktop":
       row: 3
       col: 1
-    "/data/data/com.termux/files/home/Desktop/1920x1200.desktop":
-      row: 3
-      col: 5
+    "/data/data/com.termux/files/home/Desktop/Firefox.desktop":
+      row: 0
+      col: 0
     "/data/data/com.termux/files/home/Desktop/1680x1050 (copy 1).desktop":
       row: 2
       col: 4
