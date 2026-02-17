@@ -18,6 +18,7 @@ pkg install parole -y
 pkg install nmap -y
 pkg install termux-api -y
 pkg install openjdk-17 -y
+pkg install firefox -y
 pkg list-all > paquetes.txt
 
 mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
@@ -30,11 +31,6 @@ cp Config/keyboard-layout.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/key
 cp Config/icons.screen0.yaml $HOME/.config/xfce4/desktop/icons.screen0.yaml
 cp Config/*.desktop $HOME/Desktop
 chmod a+x $HOME/Desktop/*.desktop
-
-#Es posible que este for solo se pueda ejecutar con el xfce4 encendido
-for f in $HOME/Desktop/*.desktop; do
-    gio set "$f" metadata::xfce-exe-checksum "$(sha256sum "$f" | awk '{print $1}')"
-done
 
 termux-x11-preference "fullscreen":"true"
 
