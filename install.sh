@@ -37,6 +37,9 @@ termux-x11-preference "showAdditionalKbd":"false"
 #termux-x11-preference "displayResolutionMode":"scaled"
 #termux-x11-preference "displayScale":"150"
 
+#termux-x11-preference "displayResolutionMode":"custom"
+#termux-x11-preference "displayResolutionExact":"800x800"
+
 echo "alias start=$HOME/xfce4/termux_xfce4.sh" >> $HOME/.bashrc
 echo "alias stop=$HOME/xfce4/stop.sh" >> $HOME/.bashrc
 
