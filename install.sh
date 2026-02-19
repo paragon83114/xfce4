@@ -35,7 +35,7 @@ chmod a+x $HOME/Desktop/*.desktop
 termux-x11-preference "fullscreen":"true"
 termux-x11-preference "showAdditionalKbd":"false"
 termux-x11-preference "displayResolutionMode":"custom"
-termux-x11-preference "displayResolutionExact":"1280x800"
+termux-x11-preference "displayResolutionCustom":"1280x800"
 #termux-x11-preference "displayResolutionCustom":"1440x900"
 #termux-x11-preference "displayResolutionCustom":"1680x1050"
 #termux-x11-preference "displayResolutionCustom":"1920x1200"
