@@ -9,7 +9,7 @@ pkg install pulseaudio -y
 pkg install wget -y
 pkg install git -y
 pkg install xfce4 -y
-pkg install chromium -y
+# pkg install chromium -y
 pkg install xfce4-pulseaudio-plugin -y
 pkg install xfce4-whiskermenu-plugin -y
 pkg install geany -y
@@ -33,6 +33,7 @@ cp Config/*.desktop $HOME/Desktop
 chmod a+x $HOME/Desktop/*.desktop
 
 termux-x11-preference "fullscreen":"true"
+termux-x11-preference "showAdditionalKbd":"false"
 
 echo "alias start=$HOME/xfce4/termux_xfce4.sh" >> $HOME/.bashrc
 echo "alias stop=$HOME/xfce4/stop.sh" >> $HOME/.bashrc
