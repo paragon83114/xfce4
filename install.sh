@@ -22,11 +22,11 @@ pkg install firefox -y
 pkg install chromium -y
 pkg list-all > paquetes.txt
 
-rm -R $HOME/.config/xfce4
+rm -R $HOME/.config/xfce4 &>/dev/null
 mkdir -p $HOME/.config/xfce4/desktop/
 cp Config/xfce4.tar.gz $HOME/.config
 cd $HOME/.config
-tar xvfz ./xfce4.tar.gz 
+tar xvfz ./xfce4.tar.gz &>/dev/null
 
 termux-x11-preference "fullscreen":"true"
 termux-x11-preference "showAdditionalKbd":"false"
