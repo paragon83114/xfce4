@@ -9,7 +9,6 @@ pkg install pulseaudio -y
 pkg install wget -y
 pkg install git -y
 pkg install xfce4 -y
-# pkg install chromium -y
 pkg install xfce4-pulseaudio-plugin -y
 pkg install xfce4-whiskermenu-plugin -y
 pkg install geany -y
@@ -18,19 +17,16 @@ pkg install parole -y
 pkg install nmap -y
 pkg install termux-api -y
 pkg install openjdk-17 -y
+pkg install gimp -y
 pkg install firefox -y
+pkg install chromium -y
 pkg list-all > paquetes.txt
 
-mkdir -p $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/
+rm -R $HOME/.config/xfce4
 mkdir -p $HOME/.config/xfce4/desktop/
-mkdir -p $HOME/Desktop
-
-cp Config/xfce4-desktop.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml
-cp Config/xfce4-panel.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
-cp Config/keyboard-layout.xml $HOME/.config/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml
-cp Config/icons.screen0.yaml $HOME/.config/xfce4/desktop/icons.screen0.yaml
-cp Config/*.desktop $HOME/Desktop
-chmod a+x $HOME/Desktop/*.desktop
+cp Config/xfce4.tar.gz $HOME/.config
+cd $HOME/.config
+tar xvfz ./xfce4.tar.gz 
 
 termux-x11-preference "fullscreen":"true"
 termux-x11-preference "showAdditionalKbd":"false"
@@ -44,7 +40,6 @@ termux-x11-preference "displayResolutionCustom":"1280x800"
 
 echo "alias start=$HOME/xfce4/termux_xfce4.sh" >> $HOME/.bashrc
 echo "alias stop=$HOME/xfce4/stop.sh" >> $HOME/.bashrc
-
 chmod +x $HOME/.bashrc
 
 chmod +x *.sh
