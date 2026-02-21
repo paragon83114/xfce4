@@ -38,9 +38,8 @@ termux-x11-preference "displayResolutionCustom":"1280x800"
 #termux-x11-preference "displayResolutionCustom":"2560x1600"
 #termux-x11-preference "displayResolutionCustom":"2880x1800"
 
-echo "alias start=$HOME/xfce4/termux_xfce4.sh" >> $HOME/.bashrc
+echo "alias start=$HOME/xfce4/start.sh" >> $HOME/.bashrc
 echo "alias stop=$HOME/xfce4/stop.sh" >> $HOME/.bashrc
 chmod +x $HOME/.bashrc
 
-chmod +x *.sh
-./termux_xfce4.sh
+chmod +x $HOME/xfce4/*.sh
