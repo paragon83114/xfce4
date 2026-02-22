@@ -20,6 +20,7 @@ pkg install openjdk-17 -y
 pkg install gimp -y
 pkg install firefox -y
 pkg install chromium -y
+pkg install yt-dlp -y
 pkg list-all > paquetes.txt
 
 rm -R $HOME/.config/xfce4 &>/dev/null
