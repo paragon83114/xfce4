@@ -21,6 +21,9 @@ pkg install gimp -y
 pkg install firefox -y
 pkg install chromium -y
 pkg install yt-dlp -y
+pkg install mesa-vulkan-icd-freedreno -y
+pkg install virglrenderer-android -y
+pkg install mesa-demos -y
 pkg list-all > paquetes.txt
 
 rm -R $HOME/.config/xfce4 &>/dev/null
